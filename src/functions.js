@@ -13,8 +13,8 @@ function addToCart1(productName = "Elma") {
 }
 addToCart1();
 
-
-//Fonskiyonda parametre olarak tanımlanan varsayılan degerleri basa yazarsak fonksiyona gonderilen parametre sırası ile atayacagi icin 
+ 
+//Fonskiyonda parametre olarak tanımlanan varsayılan degerleri başa yazarsak fonksiyona gonderilen parametre sırası ile atayacagi icin 
 // yanlis degeri yanlis degiskene atama islemi yapariz. Bunun önüne gecmek icin varsayılan degerleri parametre olarak en sona atama islemi yapariz. 
 function addToCart2(productName = "Elma", quantity) {
 
@@ -109,6 +109,7 @@ console.log(Math.max(...numbers));
 
 // String ifadeleri ayırmamızı saglar.
 let name = "JavaScript";
+console.log(name);
 let arrayOfStrings = [...name];
 console.log(arrayOfStrings);
 // ["J", "a", "v", "a", "S", "c", "r", "i", "p", "t"]
